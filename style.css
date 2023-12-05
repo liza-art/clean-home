@@ -1,0 +1,21 @@
+.main-title {
+    background-color: palevioletred ;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+}
+.paragraph {
+    font-size: 22px;
+}
+
+.body-style {
+    background-color: rgb(205, 207, 207);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+
+}
