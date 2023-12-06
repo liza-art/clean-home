@@ -29,16 +29,37 @@
     
 }
 
+.photo{
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    letter-spacing: 20px;
+    
+    
+}
+
 .button-link{
     text-decoration: none;
-    color: ;
+    color: rgb(10, 10, 59);
+}
+.button-link:hover{
+    color: rgb(44, 128, 238);
+}
+
+.soc-md{
+  background-color: #696969;
+  padding-top: 30px;
+  font-size: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px
 }
 
 #first-one,
 #second-one,
 #third-one,
 #four-one,
-#five-one{
+#five-one,
+#six-one{
     background-color: var(--id-color);
     color: var(--detail-color);
     padding-top: 20px;
