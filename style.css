@@ -1,57 +1,52 @@
-:root{
-    --primary-color: #817d7d;
-    --secondary-color: rgb(141, 136, 136);
-    --detail-color: black;
-    --id-color: rgb(153, 151, 151);
-    --link-color: rgb(100, 100, 240);
+:root {
+  --primary-color: #817d7d;
+  --secondary-color: rgb(141, 136, 136);
+  --detail-color: black;
+  --id-color: rgb(153, 151, 151);
+  --link-color: rgb(100, 100, 240);
 }
-
-
 
 .main-title {
-    background-color: var(--secondary-color) ;
-    text-align: center;
-    margin-left: 200px;
-    margin-right: 200px;
-    margin-bottom: 50px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    
+  background-color: var(--secondary-color);
+  text-align: center;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
+
 .paragraph {
-    font-size: 22px;
+  font-size: 22px;
 }
 
-/* rgb(75, 51, 62)-color */
-.links{
-    padding-left: 20px;
-    font-size: 18px;
-    
+.links {
+  padding-left: 5%;
+  font-size: 18px;
 }
 
-.photo{
-    width: 30px;
-    height: 30px;
-    border-radius: 20px;
-    letter-spacing: 20px;
-    
-    
+.photo {
+  width: 30px;
+  height: 30px;
+  border-radius: 20px;
+  letter-spacing: 20px;
 }
 
-.button-link{
-    text-decoration: none;
-    color: rgb(10, 10, 59);
-}
-.button-link:hover{
-    color: rgb(44, 128, 238);
+.button-link {
+  text-decoration: none;
+  color: rgb(10, 10, 59);
 }
 
-.soc-md{
+.button-link:hover {
+  color: rgb(44, 128, 238);
+}
+
+.soc-md {
   background-color: #696969;
   padding-top: 30px;
   font-size: 20px;
   padding-bottom: 20px;
-  padding-left: 20px
+  padding-left: 5%;
 }
 
 #first-one,
@@ -59,26 +54,60 @@
 #third-one,
 #four-one,
 #five-one,
-#six-one{
-    background-color: var(--id-color);
-    color: var(--detail-color);
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 30px;
-    font-size: 20px;
-    margin-top: 100px;
-    margin-bottom: 20px;
-    margin-left: 100px;
-    margin-right: 100px;
-    
-    
+#six-one {
+  background-color: var(--id-color);
+  color: var(--detail-color);
+  padding: 20px;
+  font-size: 20px;
+  margin: 30px 5%;
 }
 
 .body-style {
-    background-color: var(--primary-color);
-    font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: var(--primary-color);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
 
+/* Media Queries for responsiveness */
 
+/* Small screens */
+@media only screen and (max-width: 768px) {
+  .main-title {
+    margin-left: 2%;
+    margin-right: 2%;
+  }
 
+  .links,
+  .soc-md,
+  #first-one,
+  #second-one,
+  #third-one,
+  #four-one,
+  #five-one,
+  #six-one {
+    margin: 20px 2%;
+  }
+}
 
+/* Medium screens */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .main-title {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .links,
+  .soc-md,
+  #first-one,
+  #second-one,
+  #third-one,
+  #four-one,
+  #five-one,
+  #six-one {
+    margin: 30px 5%;
+  }
+}
+
+/* Large screens */
+@media only screen and (min-width: 1025px) {
+  /* Add your styles for large screens here if needed */
 }
