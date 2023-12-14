@@ -1,5 +1,5 @@
 :root {
-  --primary-color: #817d7d;
+  --primary-color: /*817d7d;*/ cadetblue;
   --secondary-color: rgb(141, 136, 136);
   --detail-color: black;
   --id-color: rgb(153, 151, 151);
@@ -7,7 +7,7 @@
 }
 
 .main-title {
-  background-color: var(--secondary-color);
+  background-color: rgb(141, 136, 136);
   text-align: center;
   margin-left: 5%;
   margin-right: 5%;
@@ -55,7 +55,7 @@
 #four-one,
 #five-one,
 #six-one {
-  background-color: var(--id-color);
+  background-color: rgb(65, 199, 192);
   color: var(--detail-color);
   padding: 20px;
   font-size: 20px;
